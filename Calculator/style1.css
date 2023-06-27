@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+.container {
+  background: #000000;
+  border-radius: 16px;
+  padding: 20px 35px;
+  height: 500px;
+  width: 350px;
+}
+
+.screen {
+  background: #000000;
+  color: #ffffff;
+  font-size: 30px;
+  overflow: auto;
+  padding: 10px;
+  text-align: right;
+}
+
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.calc-button {
+  background: #111010;
+  color: #ffffff;
+  border-radius: 100%;
+  flex-basis: 20%;
+  font-size: 24px;
+  font-family: inherit;
+  height: 65px;
+}
+
+.calc-button:hover {
+  background: inherit;
+}
+
+.double {
+  color: #cc2424;
+}
+
+.calc-button-color {
+  color: #1cf300;
+}
+
+.calc-button-colors {
+  color: #fff;
+  background: #1cf300;
+}
+
+.width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 47%;
+  border-radius: 30px;
+}
